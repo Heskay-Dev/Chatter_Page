@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chatter_Landing_Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="chatter.css" />
+
 </head>
 <body>
     <!-- Navbar -->
@@ -14,29 +16,164 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
-      <ul class="navbar-nav">
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
         <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
       </ul>
-      <div>
-        <a class="btn btn-outline-primary me-2" href="#">Log in</a>
+      <div class="nav-buttons">
+        <a class="btn btn-login me-2" href="#">Log in</a>
         <a class="btn btn-primary" href="#">Sign up</a>
       </div>
     </div>
   </nav>
+
   <!-- Hero Section -->
-  <section class="hero-section d-flex align-items-center justify-content-center text-center text-white">
+  <section class="hero-section d-flex align-items-center justify-content-center text-left text-white">
     <div class="overlay"></div>
     <div class="content">
       <h1 class="display-5 fw-bold">Welcome to Chatter: A Haven for Text-Based Content</h1>
-      <p class="lead">Unleash the Power of Words, Connect with Like-minded Readers and Writers.</p>
+      <p class="lead">Unleash the Power of Words, Connect with Like-minded Readers <br>and Writers.</p>
       <a href="#" class="btn btn-lg btn-purple">Get started</a>
     </div>
-  </section
+  </section>
 
+    <!-- About Chatter -->
+    <section class="about-section">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>About Chatter</h2>
+        <p>
+          Chatter is a multi-functional platform where authors and readers can have access to their own content. 
+          It aims to be a traditional bookworm's haven and a blog to get access to more text based content. 
+          Our vision is to foster an inclusive and vibrant community where diversity is celebrated. 
+          We encourage open-mindedness and respect for all individuals, regardless of their backgrounds or beliefs. 
+          By promoting dialogue and understanding, we strive to create a platform that inspires creativity and connection.
+        </p>
+      </div>
+      <div class="about-image">
+        <img src="/image/image1.png" alt="About Chatter Image">
+      </div>
+    </div>
+  </section>
+
+    <!-- Join Section -->
+  <section class="join-section">
+    <div class="join-container">
+      <h2>Why you should join chatter</h2>
+      <p class="subtitle">
+        Our goal is to make writers and readers see our platform as their next haven for blogging, ensuring ease in interactions, 
+        connecting with like–minded peers, have access to favorite content based on interests and able to communicate your great 
+        ideas with people
+      </p>
+
+      <div class="card-container">
+        <div class="card">
+          <div class="icon">📈</div>
+          <h3>Analytics</h3>
+          <p>
+            Analytics to track the number of views, likes and comment and also analyze
+            the performance of your articles over a period of time
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="icon">💬</div>
+          <h3>Social interactions</h3>
+          <p>
+            Users on the platform can interact with posts they like,
+            comment and engage in discussions
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="icon">📝</div>
+          <h3>Content creation</h3>
+          <p>
+            Write nice and appealing with our in–built markdown, a rich text editor
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial Section -->
+   <section class="testimonial-section">
+    <div class="testimonial-container">
+      <div class="testimonial-image">
+        <img src="/image/image2.png" alt="User photo">
+      </div>
+
+      <div class="testimonial-content">
+        <p class="quote">
+          "Chatter has become an integral part of my online experience. As a user of this incredible blogging platform, 
+          I have discovered a vibrant community of individuals who are passionate about sharing their ideas and engaging 
+          in thoughtful discussions."
+        </p>
+
+        <p class="author">
+          <strong>Durowoju Sikiru D,</strong>
+          <span> Website developer at Apple</span>
+        </p>
+
+        <a href="#" class="btn">Join chatter</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chatter Section -->
+   <section class="hero">
+    <div class="hero-left">
+      <div class="image-stack">
+        <img src="/image/image3.png" alt="User 1" class="img img1">
+        <img src="image/image5.png" alt="User 2" class="img img2">
+        <img src="/image/image4.png" alt="User 3" class="img img3">
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <h1>Write, read and connect<br>with great minds on chatter</h1>
+      <p>Share people your great ideas, and also read write-ups based on your interests. Connect with people of same interests and goals.</p>
+      <button class="cta-btn">Get started</button>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+    <footer class="footer">
+    <div class="footer-logo">
+      <h2>CHATTER</h2>
+    </div>
+
+    <div class="footer-links">
+      <div class="footer-column">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Trending blogs</a></li>
+          <li><a href="#">Chatter for teams</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Support</h3>
+        <ul>
+          <li><a href="#">Support docs</a></li>
+          <li><a href="#">Join slack</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Official blog</h3>
+        <ul>
+          <li><a href="#">Official blog</a></li>
+          <li><a href="#">Engineering blog</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
